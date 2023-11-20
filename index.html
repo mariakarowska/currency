@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wymiana walut</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:wght@600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1 class="header__title">Wymiana walut</h1>
+
+            <p class="header__description">Przelicz wybraną walutę (Euro, Dolar, Frank Szwajcarski lub Turecka Lira) na
+                polskie złotówki.</p>
+        </header>
+        <form class="js-form">
+            <fieldset class="form__field">
+                <legend class="form__legend">Kalulator walutowy</legend>
+                <p>
+                    <label>
+                        <span class="form__label">Wybierz walutę:</span>
+                        <select class="js-currency">
+                            <option>EUR</option>
+                            <option>USD</option>
+                            <option>CHF</option>
+                            <option>TRY</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__label">Kwota*:</span>
+                        <input class="js-amount" type="number" step="0.01" min="0.01" required>
+                    </label>
+                </p>
+            </fieldset>
+            <p>
+                <button class="form__button">Oblicz</button>
+            </p>
+
+
+            <p class="form__result">Otrzymasz <strong class="js-result">N/A</strong> PLN </p>
+        </form>
+    </div>
+</body>
+
+</html>
