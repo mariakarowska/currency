@@ -8,14 +8,17 @@ html {
 
 body {
     max-width: 1000px;
-    padding: 0 30px;
-    margin: 0 auto;
+    padding: 20px;
+    margin: 100px auto;
     background-color: rgb(253, 253, 251);
     font-family: 'Lato', sans-serif;
+    background-image: url("../images/money.jpg");
+    background-size: cover;
 }
 
 .container {
-    background-color: rgb(236, 245, 252);
     line-height: 1.5;
     text-align: center;
+  
 }
+
