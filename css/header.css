@@ -1,0 +1,9 @@
+.header__title {
+    color: rgb(75, 94, 156);
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.header__description {
+    padding-bottom: 20px;
+}
